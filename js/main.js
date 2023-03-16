@@ -134,7 +134,6 @@
     } else if ($('.mobile-nav, .mobile-nav-toggle').length) {
       $('.mobile-nav, .mobile-nav-toggle').hide();
     }
-    
 
     // jQuery counterUp
     $('[data-toggle="counter-up"]').counterUp({
