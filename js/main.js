@@ -99,7 +99,7 @@
       }
     }
   
-    
+
     // Mobile Navigation
     if ($('.nav-menu').length) {
       var $mobile_nav = $('.nav-menu').clone().prop({
@@ -134,6 +134,7 @@
     } else if ($('.mobile-nav, .mobile-nav-toggle').length) {
       $('.mobile-nav, .mobile-nav-toggle').hide();
     }
+    
   
     // jQuery counterUp
     $('[data-toggle="counter-up"]').counterUp({
